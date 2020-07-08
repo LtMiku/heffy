@@ -118,7 +118,7 @@ class NotSoBot(commands.Bot):
 		self.loop = kwargs.pop('loop', asyncio.get_event_loop())
 		asyncio.get_child_watcher().attach_loop(self.loop)
 		self.dev_mode = kwargs.pop('dev_mode', False)
-		self.token = os.getenv('ehdMYO75vDJ_VTjeACKbzoDWwgPCemip') if not self.dev_mode else os.getenv('bot_beta_token')
+		self.token = os.getenv('NzMwMzM1NTQ5MDA4NzczMTYy.XwWLWg.FpStj_jn5dr970nqFNH4DmjJX0I') if not self.dev_mode else os.getenv('bot_beta_token')
 		self.self_bot = kwargs.pop('self_bot', False)
 		if self.self_bot:
 			self.token = os.getenv('notsosuper_token')
